@@ -1,0 +1,1 @@
+# soma-salario-java
