@@ -36,7 +36,6 @@ public class Aplication {
                             .filter(p -> p.getName().charAt(0) == 'M')
                             .mapToDouble(p -> p.getSalary())
                             .sum();
-                            //.reduce(0.0, (x, y) -> x + y);
 
             System.out.print("Enter salary: ");
             double salary = scanner.nextDouble();
@@ -46,7 +45,7 @@ public class Aplication {
                             .map(p -> p.getEmail()).sorted()
                             .collect(Collectors.toList());
 
-            System.out.printf("Email of people whose salary is more than %.2f%n:", salary);
+            System.out.printf("Email of people whose salary is more than %.2f:%n", salary);
             emails.forEach(System.out::println);
 
             System.out.printf("Sum of salary of people whose name starts with 'M': %.2f%n", sum);
