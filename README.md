@@ -1,6 +1,8 @@
 # Soma Salario
 
-Exercicio do curso Java e Programação Orientada a Objetos Expert, curso feito pela [DevSuperior](https://devsuperior.club/ "Site da DevSuperior"). A aplicação consiste em fazer um programa para ler os dados (nome, email e salário)
+Exercicio do curso Java e Programação Orientada a Objetos Expert, curso feito pela [DevSuperior](https://devsuperior.club/ "Site da DevSuperior"). 
+
+A aplicação consiste em fazer um programa para ler os dados (nome, email e salário)
 de funcionários a partir de um arquivo em formato .csv.
 
 Em seguida mostrar, em ordem alfabética, o email dos
