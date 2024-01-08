@@ -42,7 +42,8 @@ public class Aplication {
 
             List<String> emails = employeeList.stream()
                             .filter(p -> p.getSalary() > salary)
-                            .map(p -> p.getEmail()).sorted()
+                            .map(p -> p.getEmail())
+                            .sorted()
                             .collect(Collectors.toList());
 
             System.out.printf("Email of people whose salary is more than %.2f:%n", salary);
