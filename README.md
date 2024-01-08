@@ -1,4 +1,4 @@
-# Soma Salario
+# Soma Salário
 
 Exercicio do curso Java e Programação Orientada a Objetos Expert, curso feito pela [DevSuperior](https://devsuperior.club/ "Site da DevSuperior"). 
 
